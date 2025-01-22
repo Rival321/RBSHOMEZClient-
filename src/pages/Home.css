@@ -1,0 +1,18 @@
+/* src/pages/Home.css */
+.home-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .home-container {
+      padding: 40px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .home-container {
+      padding: 60px;
+    }
+  }
+  

@@ -1,0 +1,46 @@
+/* src/pages/Login.css */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light grey background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #2b6cb0; /* Blue heading */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #cbd5e0; /* Grey border */
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #2b6cb0; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2c5282; /* Darker blue on hover */
+  }
+  
+  p {
+    color: #2b6cb0; /* Blue message */
+    margin-top: 10px;
+  }
+  
