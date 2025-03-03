@@ -1,0 +1,263 @@
+.property-details {
+  padding: 20px;
+  max-width: 1200px; /* Limit width for better readability */
+  margin: 0 auto; /* Center the container */
+}
+
+.property-info-card {
+  margin-top: 20px;
+}
+
+.property-info-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.property-info-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.amenity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.property-description {
+  margin-top: 20px;
+}
+
+.property-description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.property-description p {
+  font-size: 16px;
+  color: #555;
+}
+
+.additional-amenities {
+  margin-top: 20px;
+}
+
+.additional-amenities h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.additional-amenities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.additional-amenities li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #555;
+}
+/* Base styles for the request tour button */
+.request-tour-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.request-tour-button:hover {
+  background-color: #0056b3;
+}
+
+/* Popup overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup content */
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group small {
+  display: block;
+  margin-top: 5px;
+  color: #888;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+/* Submit button */
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Close button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.close-button:hover {
+  color: #000;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .popup-content {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .popup-content h2 {
+    font-size: 20px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 12px;
+  }
+
+  .submit-button {
+    font-size: 14px;
+  }
+}

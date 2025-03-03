@@ -1,0 +1,94 @@
+.image-viewer {
+  position: relative;
+  width: 100%; /* Full viewport width */
+  height: 400px; /* Adjust height as needed */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.image-viewer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dual-button {
+  position:relative; /* Positions it relative to the parent */
+  top: -20px; /* Moves it to the vertical center */
+  left: 50%; /* Moves it to the horizontal center */
+  transform: translate(-50%, -50%); /* Perfect centering */
+  display: flex; /* Ensures inline layout */
+  align-items: center; /* Centers text inside */
+  justify-content: center; /* Centers text inside */
+  width: fit-content; /* Adjusts width based on content */
+  height: 40px; /* Prevents unwanted stretching */
+  padding: 10px 10px; /* Adds some padding */
+  background-color: #69b2ff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  white-space: nowrap; /* Prevents wrapping */
+}
+
+
+
+
+.dual-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dual-button span {
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.dual-button span:first-child {
+  border-right: 1px solid white;
+}
+
+.dual-button span:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.photo-grid {
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.photo-grid .grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.photo-grid .grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .image-viewer {
+    height: 300px; /* Adjust height for smaller screens */
+  }
+
+  .dual-button {
+    bottom: -15px; /* Adjust button position */
+  }
+
+  .photo-grid .grid img {
+    height: 150px; /* Adjust image height for smaller screens */
+  }
+}
