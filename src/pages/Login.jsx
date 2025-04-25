@@ -15,7 +15,7 @@ const Login = () => {
       setMessage('Login successful!');
       // You can redirect or show a different component here
     } else {
-      setMessage('Invalid credentials');
+      setMessage('Invalid Email or Password');
     }
   };
 

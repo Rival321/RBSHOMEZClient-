@@ -9,6 +9,7 @@
 }
 
 .property-info-card h2 {
+  color: #02A4D3;
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -16,6 +17,12 @@
 .property-info-card p {
   font-size: 16px;
   color: #555;
+}
+
+.property-info-card pricing {
+  font-size: 20px;
+  color: #02A4D3;
+  margin-top: 10px;
 }
 
 .amenities {
@@ -37,6 +44,7 @@
 }
 
 .property-description h2 {
+  color: #02A4D3;
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -51,6 +59,7 @@
 }
 
 .additional-amenities h2 {
+  color: #02A4D3;
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -71,6 +80,7 @@
 }
 
 .contact-form h2 {
+  color: #02A4D3;
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -113,6 +123,7 @@
 }
 
 .contact-info h2 {
+  color: #02A4D3;
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -123,11 +134,14 @@
 }
 /* Base styles for the request tour button */
 .request-tour-button {
-  background-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #3295ff;
   color: white;
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease;
